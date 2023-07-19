@@ -7,12 +7,34 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- testing nav bar for now -->
-    <div class="h-20 bg-black"></div>
+    <!-- navigation bar -->
+    <div class="navbar bg-gradient-to-r from-purple-300 to-pink-300">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl">Queen/King Selections</a>
+      </div>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="leaderboard.html">Latest Results</a></li>
+          <li>
+            <details>
+              <summary>
+                View Selections
+              </summary>
+              <ul class="p-2 bg-base-100">
+                <li><a href="preview.html">Queen Selections</a></li>
+                <li><a>King Selections</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- drawer -->
     
     <!-- main grid -->
-    <div class="grid grid-rows-4 grid-cols-9 gap-4">
-      <div class="bg-slate-600 col-start-3 col-span-5">
+    <div class="grid grid-rows-4 grid-cols-9 gap-4 mt-3">
+      <div class="bg-gradient-to-r from-purple-300 to-pink-300 col-start-3 col-span-5">
         <!-- queen card -->
         <div class="card card-compact  bg-base-100 shadow-xl m-4 p-4">
           <div class="text-4xl text-center mb-3"><i class="fa-solid fa-crown"></i>Top Voted Selections<i class="fa-solid fa-crown"></i></div>
@@ -340,5 +362,8 @@
         </div>
       </div>
     </div>
+
+
+    
 </body>
 </html>
