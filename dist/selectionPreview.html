@@ -7,38 +7,49 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <!-- navigation bar -->
-    <div class="navbar bg-gradient-to-r from-purple-300 to-pink-300">
-      <div class="flex-1">
-        <a class="btn btn-ghost normal-case text-xl">Queen/King Selections</a>
-      </div>
-      <div class="flex-none">
-        <ul class="menu menu-horizontal px-1">
-          <li><a href="leaderboard.html">Latest Results</a></li>
-          <li>
-            <details>
-              <summary>
-                View Selections
-              </summary>
-              <ul class="p-2 bg-base-100">
-                <li><a href="preview.html">Queen Selections</a></li>
-                <li><a>King Selections</a></li>
-              </ul>
-            </details>
-          </li>
-        </ul>
-      </div>
-    </div>
+ <!-- navigation bar -->
+ <div class="navbar bg-gradient-to-r from-purple-300 to-pink-300">
+  <div class="flex-1">
+    <a class="btn btn-ghost normal-case text-xl">Vote</a>
+  </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+      
+      <li>
+        <details>
+          <summary>
+            Latest Results
+          </summary>
+          <ul class="p-2 bg-base-100 z-50">
+            <li><a href="leaderboard.html">Queen Selections</a></li>
+            <li><a href="leaderboard2.html">King Selections</a></li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>
+            View Selections
+          </summary>
+          <ul class="p-2 bg-base-100 z-50">
+            <li><a href="previewQueens.html">Queen Selections</a></li>
+            <li><a href="previewKings.html">King Selections</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+</div>
     
     <!-- main grid -->
     <div class="grid grid-rows-4 grid-cols-9 gap-4 mt-3">
-        <div class="bg-gradient-to-r from-purple-300 to-pink-300 col-start-3 col-span-5 rounded-l-3xl">
+        <div class="bg-gradient-to-r from-purple-300 to-pink-300 col-start-1 col-span-9 sm:col-start-1 sm:col-span-9 md:col-start-2 md:col-span-7 lg:col-start-2 lg:col-span-7 xl:col-start-3 xl:col-span-5 xxl:col-start-3 xxl:col-span-5">
            <!-- second grid inside main grid -->
-          <div class="grid grid-cols-2">
+          <div class="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xxl:grid-cols-2 p-3">
             <div class="1">
                 <div class="carousel-item" id="item2">
                     <div class="bg-white border rounded-sm max-w-md">
-                      <img src="images/tsp2.jpg" class="rounded-l-3xl bg-clip-border"/>
+                      <img src="images/tsp2.jpg" class=" bg-clip-border"/>
                     </div>
                   </div>
             </div>
