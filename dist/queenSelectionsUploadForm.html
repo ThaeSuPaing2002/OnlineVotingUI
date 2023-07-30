@@ -7,31 +7,42 @@
 </head>
 <body>
   <!-- navigation bar -->
-    <div class="navbar bg-gradient-to-r from-purple-300 to-pink-300">
-      <div class="flex-1">
-        <a class="btn btn-ghost normal-case text-xl">Queen/King Selections</a>
-      </div>
-      <div class="flex-none">
-        <ul class="menu menu-horizontal px-1">
-          <li><a href="leaderboard.html">Latest Results</a></li>
-          <li>
-            <details>
-              <summary>
-                View Selections
-              </summary>
-              <ul class="p-2 bg-base-100">
-                <li><a href="preview.html">Queen Selections</a></li>
-                <li><a>King Selections</a></li>
-              </ul>
-            </details>
-          </li>
-        </ul>
-      </div>
-    </div>
+ <div class="navbar bg-gradient-to-r from-purple-300 to-pink-300">
+  <div class="flex-1">
+    <a class="btn btn-ghost normal-case text-xl">Vote</a>
+  </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+      
+      <li>
+        <details>
+          <summary>
+            Latest Results
+          </summary>
+          <ul class="p-2 bg-base-100 z-50">
+            <li><a href="leaderboard.html">Queen Selections</a></li>
+            <li><a href="leaderboard2.html">King Selections</a></li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>
+            View Selections
+          </summary>
+          <ul class="p-2 bg-base-100 z-50">
+            <li><a href="previewQueens.html">Queen Selections</a></li>
+            <li><a href="previewKings.html">King Selections</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+</div>
     
     <!-- main grid -->
     <div class="grid grid-rows-4 grid-cols-9 gap-4 mt-3">
-        <div class="bg-gradient-to-r from-purple-300 to-pink-300 col-start-4 col-span-3">
+        <div class="bg-gradient-to-r from-purple-300 to-pink-300 col-start-1 col-span-9 sm:col-start-2 sm:col-span-7 md:col-start-3 md:col-span-5 lg:col-start-4 lg:col-span-3 xl:col-start-4 xl:col-span-3 xxl:col-start-4 xxl:col-span-3">
              <!-- register form -->
             <div class="h-fit m-5 bg-white border rounded">
                 
