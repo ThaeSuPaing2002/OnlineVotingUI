@@ -7,39 +7,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
- <!-- navigation bar -->
- <div class="navbar bg-gradient-to-r from-purple-300 to-pink-300">
-  <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl">Vote</a>
+  <!-- navigation bar -->
+  <div class="navbar bg-gradient-to-r from-purple-300 to-pink-300">
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl">Vote</a>
+    </div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal px-1">
+        
+        <li>
+          <details>
+            <summary>
+              Latest Results
+            </summary>
+            <ul class="p-2 bg-base-100 z-50">
+              <li><a href="leaderboard.html">Queen Selections</a></li>
+              <li><a href="leaderboard2.html">King Selections</a></li>
+            </ul>
+          </details>
+        </li>
+        
+      </ul>
+    </div>
   </div>
-  <div class="flex-none">
-    <ul class="menu menu-horizontal px-1">
-      
-      <li>
-        <details>
-          <summary>
-            Latest Results
-          </summary>
-          <ul class="p-2 bg-base-100 z-50">
-            <li><a href="leaderboard.html">Queen Selections</a></li>
-            <li><a href="leaderboard2.html">King Selections</a></li>
-          </ul>
-        </details>
-      </li>
-      <li>
-        <details>
-          <summary>
-            View Selections
-          </summary>
-          <ul class="p-2 bg-base-100 z-50">
-            <li><a href="previewQueens.html">Queen Selections</a></li>
-            <li><a href="previewKings.html">King Selections</a></li>
-          </ul>
-        </details>
-      </li>
-    </ul>
-  </div>
-</div>
     
     <!-- main grid -->
     <div class="grid grid-rows-4 grid-cols-9 gap-4 mt-3">
